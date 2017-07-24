@@ -2,7 +2,7 @@
 
 ### Introdução
 
-Este documento visa explicar como realizar a validação arquitetural de um projeto prod.
+Este documento visa explicar como realizar a validação arquitetural de um projeto Proddígio.
 
 ### Plugins
 

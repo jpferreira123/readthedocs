@@ -1,6 +1,6 @@
 # Alterando tema pelo Eclipse:
 
-Obs.: É necessário possuir o projeto do tema e um projeto prod abertos em sua workspace.
+Obs.: É necessário possuir o projeto do tema e um projeto Proddígio abertos em sua workspace.
 
 ![](imagens/alterando_tema_pelo_eclipse_1.png)
 
@@ -23,7 +23,7 @@ Obs.: É necessário possuir o projeto do tema e um projeto prod abertos em sua 
 
 ![](imagens/alterando_tema_pelo_eclipse_5.png)
  
-### Acesse os arquivos do projeto (possivelmente: C:\prod\workspace\prodtema\prodtema\src\archive\web\zul\less)
+### Acesse os arquivos do projeto (possivelmente: C:\Prodemge\workspace\proddigiotema\proddigiotema\src\archive\web\zul\less)
 
 ![](imagens/alterando_tema_pelo_eclipse_6.png)
  
@@ -31,7 +31,7 @@ Obs.: É necessário possuir o projeto do tema e um projeto prod abertos em sua 
 
 ### Acesse o diretório do projeto pelo prompt e execute os seguintes comandos para compilar os arquivos less e gerar o jar de seu tema:
 
-	set PATH=%PATH%;c:\prod\maven\apache-maven-3.0.5\bin
+	set PATH=%PATH%;c:\Prodemge\maven\apache-maven-3.0.5\bin
 
 	mvn install -DgroupId=org.zkoss.theme -DartifactId=nomedotema -Dversion=1.0.0 -Dpackaging=jar
 

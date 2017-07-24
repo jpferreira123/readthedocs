@@ -35,7 +35,7 @@ Obs.: o nome da classe deve seguir o padrão NomeDaEntidadeWSFacadeImp.
 	//anotações da classe, @Stateless(name=”nomeEntidade-ejb”) e @WebService.
 	@Stateless(name = "funcionario-ejb")
 	@WebService
-	public class FuncionarioWSFacadeImp extends CursoprodBaseWSFacadeImp implements IFuncionarioWSFacade {
+	public class FuncionarioWSFacadeImp extends CursoProddigioBaseWSFacadeImp implements IFuncionarioWSFacade {
 		//implementação dos métodos
 		@Override
 		public List<FuncionarioVO> retornarFuncionarios() {

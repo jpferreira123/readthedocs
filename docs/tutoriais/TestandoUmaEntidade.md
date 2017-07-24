@@ -1,6 +1,6 @@
-# Testando uma entidade no prod usando o Eclipse
+# Testando uma entidade no Proddígio usando o Eclipse
 
-Pressupondo que o projeto esteja devidamente criado e o servidor de aplicação esteja devidamente configurado, clique no pacote test do projeto cursoprod-backend na aba package explorer do Eclipse.  Veja a imagem abaixo:
+Pressupondo que o projeto esteja devidamente criado e o servidor de aplicação esteja devidamente configurado, clique no pacote test do projeto cursoproddigio-backend na aba package explorer do Eclipse.  Veja a imagem abaixo:
 
 ![](imagens/testando_uma_entidade_1.png)
 Figura 1

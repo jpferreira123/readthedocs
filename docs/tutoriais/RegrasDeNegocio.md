@@ -12,7 +12,7 @@ As regras de negócios encontram-se nas classes terminadas em RN que herdam de B
 No exemplo a seguir iremos nos certificar de que um objeto do tipo FuncionarioVO só será persistido no banco caso possua o atributo nome preenchido. 
 Primeiramente criaremos a lógica de validação:
 
-	package  br.gov.prod.prod.tutorial.negocio.funcionario;
+	package  br.gov.prodemge.proddigio.tutorial.negocio.funcionario;
 	/* imports omitidos */
 	public class FuncionarioRN extends TutorialBaseRN{
 		public void verificaNome(FuncionarioVO funcionarioVO) {

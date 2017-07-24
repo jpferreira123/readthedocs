@@ -159,7 +159,7 @@ Resultado:
 ### Ctr:
 
 
-	public class FuncionarioCtr extends CursoprodBaseCtr<FuncionarioVO> {
+	public class FuncionarioCtr extends CursoProdigioBaseCtr<FuncionarioVO> {
 		FuncionarioVO funcionarioEmDetalhes;
 		
 		public FuncionarioVO getFuncionarioEmDetalhes() {

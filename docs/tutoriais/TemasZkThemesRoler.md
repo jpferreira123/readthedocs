@@ -34,9 +34,9 @@ Agora importe o arquivo .txt do Color Set baixado. Todas as configurações feit
 Basta agora realizar o Download do tema em Download Your Theme. 
 
 
-### Habilitando o tema em projetos do prod
+### Habilitando o tema em projetos do Proddígio
 
-1. Coloque o arquivo .jar de seu tema na pasta WEB-INF/lib de seu projeto prod então seu tema personalizado se tornará padrão caso nenhum outro tema esteja habilitado.
+1. Coloque o arquivo .jar de seu tema na pasta WEB-INF/lib de seu projeto Proddígio então seu tema personalizado se tornará padrão caso nenhum outro tema esteja habilitado.
 2. Você pode fazer a troca de maneira dinâmica por cookie ou library property:
 3. Usando cookie, adicione um cookie:
 zktheme = NOME_DO_TEMA
