@@ -1,0 +1,37 @@
+site_name: "jpferreira"
+repo_url: https://github.com/jpferreira/readthedocs
+site_favicon: favicon.ico
+copyright: "Copyright (C) 2017"
+docs_dir: docs
+pages:
+- Introdução: index.md
+- Instalação e Configuração: instalacaoEConfiguracao/Instalacao.md
+	- Instalação: instalacaoEConfiguracao/Instalacao.md
+	- Configurando o Ambiente: instalacaoEConfiguracao/ConfigurandoOAmbiente.md
+	- Novo Projeto via Archetype: instalacaoEConfiguracao/NovoProjetoViaArchetype.md
+	- Novo Projeto Sem SSC: instalacaoEConfiguracao/NovoProjetoSemSsc.md
+- Componentes: componentes/BandBoxBind.md
+	- BandBoxBind: componentes/BandBoxBind.md
+	- DetBox: componentes/DetBox.md
+- Tutoriais: tutoriais/RegrasDeNegocio.md
+	- Regras de Negócio: tutoriais/RegrasDeNegocio.md
+	- Serviços Soap: tutoriais/ServicosSoap.md
+	- Testando uma Entidade: tutoriais/TestandoUmaEntidade.md
+	- Validação Arquitetural: tutoriais/ValidacaoArquitetural.md
+	- Abrindo Popups na Listagem: tutoriais/AbrindoPopupsNaListagem.md
+	- Temas - ZkThemesRoler: tutoriais/TemasZkThemesRoler.md
+	- Criando Temas - Parte1: tutoriais/CriandoTemasParte1.md
+	- Criando Temas - Parte2: tutoriais/CriandoTemasParte2.md
+	- Pesquisando dados em intervalos de datas: tutoriais/PesquisandoDadosEmIntervalosDeDatas.md
+	- Pesquisas utilizando objetos: tutoriais/PesquisasUtilizandoObjetos.md
+	- Pesquisas utilizando objetos aninhados: tutoriais/PesquisasUtilizandoObjetosAninhados.md
+	- MoldsBootstrap: tutoriais/MoldsBootstrap.md
+- Testes:
+    - Configurando Ambiente para Testes: testes/ConfigurandoAmbienteParaTestes.md
+    - Testes Funcionais: testes/TestesFuncionais.md
+    - Testes de Integração: testes/TestesDeIntegracao.md
+- Sobre:
+    - Release Policy: sobre/ReleasePolicy.md
+    - Changelog: sobre/Changelog.md
+    - License: sobre/License.md
+theme: readthedocs
