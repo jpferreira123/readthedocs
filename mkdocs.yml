@@ -4,6 +4,7 @@ site_favicon: favicon.ico
 copyright: "Copyright (C) 2017"
 docs_dir: docs
 
+pages:
 - Introdução: index.md
 - Instalação e Configuração:
     - Instalação: instalacaoEConfiguracao/Instalacao.md
