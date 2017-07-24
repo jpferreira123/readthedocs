@@ -6,7 +6,7 @@ docs_dir: docs
 pages:
 - Introdução: index.md
 - Instalação e Configuração:
-	- Instalação: instalacaoEConfiguracao/Instalacao.md
+	- Instalação: docs/instalacaoEConfiguracao/Instalacao.md
 	- Configurando o Ambiente: instalacaoEConfiguracao/ConfigurandoOAmbiente.md
 	- Novo Projeto via Archetype: instalacaoEConfiguracao/NovoProjetoViaArchetype.md
 	- Novo Projeto Sem SSC: instalacaoEConfiguracao/NovoProjetoSemSsc.md
