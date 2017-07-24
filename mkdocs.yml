@@ -5,19 +5,19 @@ copyright: "Copyright (C) 2017"
 docs_dir: docs
 pages:
 - Introdução: index.md
-- Instalação e Configuração:
-	- Instalação: instalacaoEConfiguracao/Instalacao.md
+- Instalação e Configuração: instalacaoEConfiguracao/Instalacao.md
+	- Instalacao: instalacaoEConfiguracao/Instalacao.md
 	- Configurando o Ambiente: instalacaoEConfiguracao/ConfigurandoOAmbiente.md
 	- Novo Projeto via Archetype: instalacaoEConfiguracao/NovoProjetoViaArchetype.md
 	- Novo Projeto Sem SSC: instalacaoEConfiguracao/NovoProjetoSemSsc.md
-- Componentes:
+- Componentes: componentes/BandBoxBind.md
 	- BandBoxBind: componentes/BandBoxBind.md
 	- DetBox: componentes/DetBox.md
-- Tutoriais:
-	- Regras de Negócio: tutoriais/RegrasDeNegocio.md
+- Tutoriais: tutoriais/RegrasDeNegocio.md
+	- Regras de Negocio: tutoriais/RegrasDeNegocio.md
 	- Serviços Soap: tutoriais/ServicosSoap.md
 	- Testando uma Entidade: tutoriais/TestandoUmaEntidade.md
-	- Validação Arquitetural: tutoriais/ValidacaoArquitetural.md
+	- Validacao Arquitetural: tutoriais/ValidacaoArquitetural.md
 	- Abrindo Popups na Listagem: tutoriais/AbrindoPopupsNaListagem.md
 	- Temas - ZkThemesRoler: tutoriais/TemasZkThemesRoler.md
 	- Criando Temas - Parte1: tutoriais/CriandoTemasParte1.md
