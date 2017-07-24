@@ -7,6 +7,6 @@ docs_dir: docs
 pages:
 - Introdução: index.md
 - Instalacao e Configuracao:
-	- Instalacao: instalacao-e-configuracao/instalacao.md
+    - Instalacao: instalacao-e-configuracao/instalacao.md
 
 theme: readthedocs
