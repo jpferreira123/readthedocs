@@ -1,12 +1,12 @@
-site_name: "jpferreira"
+site_name: jpferreira
 repo_url: https://github.com/jpferreira/readthedocs
 site_favicon: favicon.ico
 copyright: "Copyright (C) 2017"
 docs_dir: docs
 pages:
 - Introdução: index.md
-- Instalação e Configuração:
-	- Instalação: docs/instalacaoEConfiguracao/Instalacao.md
+- Instalacao e Configuracao:
+	- Instalacao: docs/instalacaoEConfiguracao/Instalacao.md
 	- Configurando o Ambiente: instalacaoEConfiguracao/ConfigurandoOAmbiente.md
 	- Novo Projeto via Archetype: instalacaoEConfiguracao/NovoProjetoViaArchetype.md
 	- Novo Projeto Sem SSC: instalacaoEConfiguracao/NovoProjetoSemSsc.md
