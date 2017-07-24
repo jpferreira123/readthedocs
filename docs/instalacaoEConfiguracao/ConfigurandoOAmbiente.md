@@ -1,12 +1,12 @@
 # Configurando o ambiente
 
 ## Introdução
-Este documento visa explicar como realizar as configurações necessárias no Postgre, Maven e jBoss para utilização do framework prod.
+Este documento visa explicar como realizar as configurações necessárias no Postgre, Maven e jBoss para utilização do framework Proddígio.
 
 ## Configurando o Postgre
 ### Inicializando o Banco
 
-Na pasta de instalação do prod acesse o diretório databases\postgre_portable e execute o PortablePostgreSQL.
+Na pasta de instalação do Proddígio acesse o diretório databases\postgre_portable e execute o PortablePostgreSQL.
 Acesse o Postgre nos ícones ocultos, clique com o botão direito do mouse e selecione Progs>>Start PostgreSQL.
 
 ![](imagens/configurando_o_ambiente_1.png)
@@ -37,7 +37,7 @@ Clique com o botão direito em Banco de Dados e escolha a opção Novo Banco de 
 
 ![](imagens/configurando_o_ambiente_7.png)
 
-Defina o nome do banco e selecione prod como Dono
+Defina o nome do banco e selecione Proddígio como Dono
 
 ![](imagens/configurando_o_ambiente_8.png)
 
@@ -75,7 +75,7 @@ Acesse a propriedade ‘User Settings’:
 
 ![](imagens/configurando_o_ambiente_14.png)
 
-No campo ‘User settings’ selecione o arquivo settings.xml que se encontra na pasta maven\apache-maven-3.0.5\conf localizada na pasta de instalação do prod e clique em APPLY. 
+No campo ‘User settings’ selecione o arquivo settings.xml que se encontra na pasta maven\apache-maven-3.0.5\conf localizada na pasta de instalação do Proddígio e clique em APPLY. 
 
 ![](imagens/configurando_o_ambiente_15.png)
 
@@ -83,12 +83,12 @@ Agora vá para a opção MAVEN >> INSTALLATIONS
 
 ![](imagens/configurando_o_ambiente_16.png)
 
-Clique no botão ‘Add...’ adicione e o diretório de instalação maven do prod 
+Clique no botão ‘Add...’ adicione e o diretório de instalação maven do Proddígio 
 
 ![](imagens/configurando_o_ambiente_17.png)
 ![](imagens/configurando_o_ambiente_18.png)
 
 Clique em FINISH.
-Certifique-se de habilitar o maven prod, clique em APPLY e em seguida em OK.
+Certifique-se de habilitar o maven Proddígio, clique em APPLY e em seguida em OK.
 
 ![](imagens/configurando_o_ambiente_19.png)

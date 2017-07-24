@@ -1,10 +1,10 @@
-# Configurações para Projeto prod sem SSC
+# Configurações para Projeto Proddígio sem SSC
 
 Requisitos: possuir ambiente configurado e projeto criado via archetype com SSC desabilitado na properties ‘includeSSC’ durante a criação do projeto.
 
 ## Introdução
 
-Este documento visa explicar as configurações necessárias em um projeto prod sem SSC.
+Este documento visa explicar as configurações necessárias em um projeto Proddígio sem SSC.
 
 ## Alterando a index.zul
 
@@ -16,7 +16,7 @@ O arquivo deve estar parecido com o a seguir:
 
 ![](imagens/projeto_sem_ssc_2.png)
 
-Altere o caminho da classe controle, no atributo apply da tag window para a classe br.gov.prod.controle.WindowPrincipalUnsecured da seguinte maneira:
+Altere o caminho da classe controle, no atributo apply da tag window para a classe br.gov.proddigio.controle.WindowPrincipalUnsecured da seguinte maneira:
 
 ![](imagens/projeto_sem_ssc_3.png)
  
@@ -56,7 +56,7 @@ Adicione agora os itens do menu como a seguir:
 ![](imagens/projeto_sem_ssc_10.png)
 
 Observe bem a estrutura do menu e da tag custom-attributes.
-Por último, no atributo apply da tag Window substitua “br.gov.prod.controle.WindowIntroducao” por “br.gov.prod.controle.WindowPrincipalUnsecured”.
-<window id="principal" apply="br.gov.prod.controle.WindowPrincipalUnsecured">	
+Por último, no atributo apply da tag Window substitua “br.gov.proddigio.controle.WindowIntroducao” por “br.gov.proddigio.controle.WindowPrincipalUnsecured”.
+<window id="principal" apply="br.gov.proddigio.controle.WindowPrincipalUnsecured">	
 
 

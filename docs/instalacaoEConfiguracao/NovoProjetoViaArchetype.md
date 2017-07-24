@@ -1,6 +1,6 @@
-# Projeto prod via Archetype
+# Projeto Proddígio via Archetype
 
-Este documento visa explicar como configurar o archetype prod e realizar a criação de um projeto seguindo o padrão arquitetural.
+Este documento visa explicar como configurar o archetype Proddígio e realizar a criação de um projeto seguindo o padrão arquitetural.
 
 Obs. 1 : Neste tutorial o Archetype se encontrava na versão 2.5, a possível evolução do Archetype não altera os procedimentos de criação de projetos descritos neste documento, sendo necessário apenas a substituição do arquivo archetype-catalog para a versão mais recente.
 
@@ -14,7 +14,7 @@ Abra o Eclipse Luna. No menu superior selecione WINDOW >> PREFERENCES e acesse a
 
 Clique em ‘Add Local Catalog...’ e adicione o caminho para o catalogo do arquétipo mais recente e clique em OK:
 
-Obs.: O arquivo archetype-catalog se encontra no diretório C:/prod/ARCHETYPE.
+Obs.: O arquivo archetype-catalog se encontra no diretório C:/Prodemge/ARCHETYPE.
 
 ![](imagens/novo_projeto_via_archetype_2.png)
 ![](imagens/novo_projeto_via_archetype_3.png)
@@ -34,7 +34,7 @@ Clique em Next.
 
 ![](imagens/novo_projeto_via_archetype_6.png)
 
-Agora selecione o catalogo do prod e passe para o próximo passo.
+Agora selecione o catalogo do Proddígio e passe para o próximo passo.
 
 ![](imagens/novo_projeto_via_archetype_7.png)
 ![](imagens/novo_projeto_via_archetype_8.png)
@@ -47,7 +47,7 @@ Obs.: o SSC vem habilitado por padrão, para desabilita-lo basta atribuir ‘n�
 ![](imagens/novo_projeto_via_archetype_9.png)
 
 Na properties baseClassname coloque o nome do projeto com a primeira letra maiúscula.
-Em prodVersion  e  sscVersion coloque as versões mais recente do prod e SSC respectivamente.
+Em ProddigioVersion  e  sscVersion coloque as versões mais recente do Proddígio e SSC respectivamente.
 
 ## Executando a aplicação
 
@@ -93,6 +93,7 @@ Basta adicionar sua aplicação ao servidor e inicializa-lo.
 ![](imagens/novo_projeto_via_archetype_20.png)
 
 Sua aplicação poderá ser acessada pelo navegador através da URL: 
+
 ```sh
 http://localhost:8080/nomeDaAplicacao-frontend/
 ```
