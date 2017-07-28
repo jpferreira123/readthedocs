@@ -25,18 +25,18 @@ Acesse: https://www.zkoss.org/zkthemeroller/
 
 ### Importando para versão 8
 
-Após realizar as modificações desejadas, na aba Export/Import escolha a opção Export Color Set. Será realizado o download de um arquivo .txt.
+Após realizar as modificações desejadas, na aba ``Export/Import`` escolha a opção ``Export Color Set``. Será realizado o download de um arquivo .txt.
 
 Acesse a versão 8 Beta do ZkThemeRoller em: https://www.zkoss.org/zkthemeroller80/
 
-Agora importe o arquivo .txt do Color Set baixado. Todas as configurações feitas na versão 7 agora estão adaptadas para a versão 8.
+Agora importe o arquivo ``.txt`` do ``Color Set ``baixado. Todas as configurações feitas na versão 7 agora estão adaptadas para a versão 8.
 
-Basta agora realizar o Download do tema em Download Your Theme. 
+Basta agora realizar o Download do tema em ``Download Your Theme``. 
 
 
 ### Habilitando o tema em projetos do Proddígio
 
-1. Coloque o arquivo .jar de seu tema na pasta WEB-INF/lib de seu projeto Proddígio então seu tema personalizado se tornará padrão caso nenhum outro tema esteja habilitado.
+1. Coloque o arquivo ``.jar`` de seu tema na pasta ``WEB-INF/lib`` de seu projeto Proddígio então seu tema personalizado se tornará padrão caso nenhum outro tema esteja habilitado.
 2. Você pode fazer a troca de maneira dinâmica por cookie ou library property:
 3. Usando cookie, adicione um cookie:
 zktheme = NOME_DO_TEMA

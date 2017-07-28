@@ -2,19 +2,19 @@
 
 ### Projeto backend
 
-Crie a classe BaseWSFacadeImp caso não exista em seu projeto.
+Crie a classe ``BaseWSFacadeImp`` caso não exista em seu projeto.
 
 ![](imagens/servicos_soap_1.png)
 
-Anote a classe com as seguintes anotações e declare um atributo do tipo IProFacadeRemote com a anotação @EJB. 
+Anote a classe com as seguintes anotações e declare um atributo do tipo ``IProFacadeRemote`` com a anotação ``@EJB``. 
 
 ![](imagens/servicos_soap_2.png)
 
-Crie a interface WS Facade de sua entidade com a assinatura dos métodos que serão usados como serviços.
+Crie a interface ``WS Facade`` de sua entidade com a assinatura dos métodos que serão usados como serviços.
 
 ![](imagens/servicos_soap_3.png)
 
-Obs.: o nome da interface deve seguir o padrão INomeDaEntidadeWSFacade.
+Obs.: o nome da interface deve seguir o padrão ``INomeDaEntidadeWSFacade``.
 
 ![](imagens/servicos_soap_4.png)
 
@@ -22,11 +22,11 @@ Conteúdo da interface:
 
 ![](imagens/servicos_soap_5.png)
 
-Crie a classe WSFacadeImp, esta classe deverá herdar de BaseWSFacadeImp  e implementar a interface criada no passo anterior.
+Crie a classe ``WSFacadeImp``, esta classe deverá herdar de ``BaseWSFacadeImp``  e implementar a interface criada no passo anterior.
 
 ![](imagens/servicos_soap_6.png)
 
-Obs.: o nome da classe deve seguir o padrão NomeDaEntidadeWSFacadeImp.
+Obs.: o nome da classe deve seguir o padrão ``NomeDaEntidadeWSFacadeImp``.
  
 ![](imagens/servicos_soap_7.png)
 
@@ -70,7 +70,7 @@ Crie um novo projeto SOAP
 
 ![](imagens/servicos_soap_11.png)
  
-Nomeie seu projeto e no campo Initial WSDL coloque o caminho para o serviço criado(http://localhost:8080/nomeDoProjeto-backend-0.0.1-SNAPSHOT/FuncionarioWSFacadeImp?wsdl).
+Nomeie seu projeto e no campo ``Initial WSDL`` coloque o caminho para o serviço criado(http://localhost:8080/nomeDoProjeto-backend-0.0.1-SNAPSHOT/FuncionarioWSFacadeImp?wsdl).
 
 ![](imagens/servicos_soap_12.png)
  
