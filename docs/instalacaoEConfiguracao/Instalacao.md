@@ -4,7 +4,7 @@
 
 ## Instalação
 
-Execute o arquivo **proddígio-setup.exe** , clique na opção Avançar, direcione a instalação para raiz de C: , clique em avançar. Aguarde a instalação ser concluída. A instalação irá configurar o seguinte ambiente:
+Execute o arquivo **proddígio-setup.exe** , clique na opção Avançar, direcione a instalação para raiz de ``C:`` , clique em ``avançar``. Aguarde a instalação ser concluída. A instalação irá configurar o seguinte ambiente:
 
   - Archetypes
   - Databases (Postgre)
