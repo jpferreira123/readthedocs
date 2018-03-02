@@ -1,0 +1,11 @@
+{
+	"name" : "jpferreira123/package-teste",
+	"description" : "Teste",
+	"license" : "MIT",
+	"authors" : [{
+			"name" : "Joao Paulo Ferreira",
+			"email" : "jp.ferreira.123@gmail.com"
+		}
+	],
+	"version" : "1.0.0"
+}
